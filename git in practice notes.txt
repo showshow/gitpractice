@@ -70,6 +70,7 @@ chapter 2
 12. checkout branch
 	a. 将另外一个branch的内容checkout 到working directory
 	b. working directory的内容将会被branch的内容替换
+	# git branch chapter2
 	# git checkout chapter2
 	c. 在checkout一个new branch前，必须commit所有在当前branch上做的changes
 	
@@ -77,7 +78,21 @@ chapter 2
 	# git push --set-upstream origin chapter2
 	a. local chapter2 branch可以track远程的chapter2 branch
 	
-14. merge branch
+14. merge branch(完整流程)
+	# git branch chapter2	=>创建branch
+	# git checkout chapter2	=>checkout branch
+	# git push --set-upstream origin chapter2	=>push branch remotely
+	# 编辑文件
+	# git add "xxx"		=>增加修改
+	# git commit -m "xxx"	=>提交修改
+	# git checkout master	=>回到master branch
+	# git merge chapter2
 	
+15. merge conflict
+	
+16. rebase/delete remote branch
+	# git checkout master
+	# git push
+	# git push --delete origin chapter2
 	
 	
