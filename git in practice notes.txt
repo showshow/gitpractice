@@ -47,3 +47,19 @@ chapter 2
 	# git remote add origin https://github.com/showshow/gitpractice.git
 	# git remote --verbose
 	
+7. push changes to remote repository
+	# git push --set-upstream origin master
+	a. 上面命令只是在第一次创建一个remote branch时才需要
+	b. 之后，git push没有参数等价于git push origin master命令
+	
+8. clone remote repository
+	# git clone https://github.com/showshow/gitpractice.git
+	# git clone https://github.com/showshow/gitpractice.git another_path
+	
+9. pull changes (merge)
+	# git pull
+	
+10. fetch change (no merge)
+	# git fetch
+
+	
