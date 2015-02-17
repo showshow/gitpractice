@@ -61,5 +61,5 @@ chapter 2
 	
 10. fetch change (no merge)
 	# git fetch
-
+	a. no merge
 	
