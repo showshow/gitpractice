@@ -18,4 +18,8 @@ chapter 1
 		info
 		objects
 3. ½øÐÐcommit
+	# git add "git in practice notes.txt"	==>index stage
+	# git status
 	
+	# git commit -m "create book reading notes"
+	>> git commit --message/-m --author --date --all/-a
