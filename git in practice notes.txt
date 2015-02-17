@@ -61,5 +61,23 @@ chapter 2
 	
 10. fetch change (no merge)
 	# git fetch
-	a. no merge
+	a. git fetch && git merge origin/master
+	b. git fetch && git pull == git pull
+	
+11. create branch
+	# git branch branch_name
+	
+12. checkout branch
+	a. 将另外一个branch的内容checkout 到working directory
+	b. working directory的内容将会被branch的内容替换
+	# git checkout chapter2
+	c. 在checkout一个new branch前，必须commit所有在当前branch上做的changes
+	
+13. push branch
+	# git push --set-upstream origin chapter2
+	a. local chapter2 branch可以track远程的chapter2 branch
+	
+14. merge branch
+	
+	
 	
