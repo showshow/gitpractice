@@ -23,3 +23,27 @@ chapter 1
 	
 	# git commit -m "create book reading notes"
 	>> git commit --message/-m --author --date --all/-a
+	
+4. history
+	# git log
+	# gitk	==>GUI interface
+	
+5. view difference
+	# git diff -- xxx	==>>> 特定目录或文件xxx
+	# git diff	==>>无参数，Index stage VS. working space
+	
+	# git diff --stat master~1 master		==>unified format
+	# git diff --word-diff master~1 master
+	
+	各种refs: branch(第一个branch是master), HEAD, remote branch, tags
+	等价命令：
+	# git diff master~1 master
+	# git diff master~1 HEAD
+	# git diff master^ master
+	# git diff SHA-1 SHA-1
+	
+chapter 2
+6. add remote repository
+	# git remote add origin https://github.com/showshow/gitpractice.git
+	# git remote --verbose
+	
