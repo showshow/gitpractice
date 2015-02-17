@@ -1,0 +1,21 @@
+chapter 1
+1. setup name and email
+	# git config --global user.name "xxx"
+	# git config --global user.email "xxx@xxx"
+2. 创建一个repository
+	a. 本地环境包含一个.git子目录
+	b. 可以commit, view历史, request difference
+	c. 通常可以下载/clone一个存在的repository来创建repository
+	d. # git init gitpractice
+	e. windows下查看隐藏文件命令：dir /a:h
+	f. .git隐藏目录包括：
+		config
+		description
+		HEAD
+		ref/heads
+		ref/tags
+		hook
+		info
+		objects
+3. 进行commit
+	
